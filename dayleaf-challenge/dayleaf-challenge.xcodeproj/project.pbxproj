@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFC01B262869D91D00453AA7 /* Like-incrementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC01B252869D91D00453AA7 /* Like-incrementation.swift */; };
+		CFC01B282869E99000453AA7 /* Like-heart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC01B272869E99000453AA7 /* Like-heart.swift */; };
+		CFC01B46286AF20C00453AA7 /* ProfileLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC01B45286AF20C00453AA7 /* ProfileLevel.swift */; };
+		CFC01B48286B232200453AA7 /* EventsChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC01B47286B232200453AA7 /* EventsChallenges.swift */; };
+		CFC01B4B286B2A1200453AA7 /* DayLeafChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC01B49286B2A1200453AA7 /* DayLeafChallenges.swift */; };
+		CFC01B4C286B2A1200453AA7 /* DayLeafEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC01B4A286B2A1200453AA7 /* DayLeafEvents.swift */; };
+		CFC01B4E286C7C6E00453AA7 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC01B4D286C7C6E00453AA7 /* Map.swift */; };
+		CFE1D1C2286496BD005BA6B9 /* dayleaf_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1D1C1286496BD005BA6B9 /* dayleaf_challengeApp.swift */; };
+		CFE1D1C4286496BD005BA6B9 /* Challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1D1C3286496BD005BA6B9 /* Challenges.swift */; };
+		CFE1D1C6286496BF005BA6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE1D1C5286496BF005BA6B9 /* Assets.xcassets */; };
+		CFE1D1C9286496BF005BA6B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE1D1C8286496BF005BA6B9 /* Preview Assets.xcassets */; };
+		CFE1D1D02865B5B2005BA6B9 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1D1CF2865B5B2005BA6B9 /* Events.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFC01B252869D91D00453AA7 /* Like-incrementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Like-incrementation.swift"; sourceTree = "<group>"; };
+		CFC01B272869E99000453AA7 /* Like-heart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Like-heart.swift"; sourceTree = "<group>"; };
+		CFC01B45286AF20C00453AA7 /* ProfileLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLevel.swift; sourceTree = "<group>"; };
+		CFC01B47286B232200453AA7 /* EventsChallenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsChallenges.swift; sourceTree = "<group>"; };
+		CFC01B49286B2A1200453AA7 /* DayLeafChallenges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayLeafChallenges.swift; sourceTree = "<group>"; };
+		CFC01B4A286B2A1200453AA7 /* DayLeafEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayLeafEvents.swift; sourceTree = "<group>"; };
+		CFC01B4D286C7C6E00453AA7 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		CFE1D1BE286496BD005BA6B9 /* dayleaf-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dayleaf-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE1D1C1286496BD005BA6B9 /* dayleaf_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayleaf_challengeApp.swift; sourceTree = "<group>"; };
+		CFE1D1C3286496BD005BA6B9 /* Challenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges.swift; sourceTree = "<group>"; };
+		CFE1D1C5286496BF005BA6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFE1D1C8286496BF005BA6B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFE1D1CF2865B5B2005BA6B9 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFE1D1BB286496BD005BA6B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFE1D1B5286496BD005BA6B9 = {
+			isa = PBXGroup;
+			children = (
+				CFE1D1C0286496BD005BA6B9 /* dayleaf-challenge */,
+				CFE1D1BF286496BD005BA6B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE1D1BF286496BD005BA6B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFE1D1BE286496BD005BA6B9 /* dayleaf-challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFE1D1C0286496BD005BA6B9 /* dayleaf-challenge */ = {
+			isa = PBXGroup;
+			children = (
+				CFC01B49286B2A1200453AA7 /* DayLeafChallenges.swift */,
+				CFC01B4D286C7C6E00453AA7 /* Map.swift */,
+				CFC01B4A286B2A1200453AA7 /* DayLeafEvents.swift */,
+				CFE1D1C1286496BD005BA6B9 /* dayleaf_challengeApp.swift */,
+				CFC01B47286B232200453AA7 /* EventsChallenges.swift */,
+				CFE1D1C3286496BD005BA6B9 /* Challenges.swift */,
+				CFE1D1CF2865B5B2005BA6B9 /* Events.swift */,
+				CFC01B45286AF20C00453AA7 /* ProfileLevel.swift */,
+				CFC01B252869D91D00453AA7 /* Like-incrementation.swift */,
+				CFC01B272869E99000453AA7 /* Like-heart.swift */,
+				CFE1D1C5286496BF005BA6B9 /* Assets.xcassets */,
+				CFE1D1C7286496BF005BA6B9 /* Preview Content */,
+			);
+			path = "dayleaf-challenge";
+			sourceTree = "<group>";
+		};
+		CFE1D1C7286496BF005BA6B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFE1D1C8286496BF005BA6B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE1D1BD286496BD005BA6B9 /* dayleaf-challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE1D1CC286496BF005BA6B9 /* Build configuration list for PBXNativeTarget "dayleaf-challenge" */;
+			buildPhases = (
+				CFE1D1BA286496BD005BA6B9 /* Sources */,
+				CFE1D1BB286496BD005BA6B9 /* Frameworks */,
+				CFE1D1BC286496BD005BA6B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dayleaf-challenge";
+			productName = "dayleaf-challenge";
+			productReference = CFE1D1BE286496BD005BA6B9 /* dayleaf-challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFE1D1B6286496BD005BA6B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CFE1D1BD286496BD005BA6B9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CFE1D1B9286496BD005BA6B9 /* Build configuration list for PBXProject "dayleaf-challenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFE1D1B5286496BD005BA6B9;
+			productRefGroup = CFE1D1BF286496BD005BA6B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE1D1BD286496BD005BA6B9 /* dayleaf-challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFE1D1BC286496BD005BA6B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE1D1C9286496BF005BA6B9 /* Preview Assets.xcassets in Resources */,
+				CFE1D1C6286496BF005BA6B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFE1D1BA286496BD005BA6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC01B4E286C7C6E00453AA7 /* Map.swift in Sources */,
+				CFE1D1C4286496BD005BA6B9 /* Challenges.swift in Sources */,
+				CFC01B282869E99000453AA7 /* Like-heart.swift in Sources */,
+				CFE1D1D02865B5B2005BA6B9 /* Events.swift in Sources */,
+				CFC01B262869D91D00453AA7 /* Like-incrementation.swift in Sources */,
+				CFC01B46286AF20C00453AA7 /* ProfileLevel.swift in Sources */,
+				CFC01B48286B232200453AA7 /* EventsChallenges.swift in Sources */,
+				CFC01B4B286B2A1200453AA7 /* DayLeafChallenges.swift in Sources */,
+				CFC01B4C286B2A1200453AA7 /* DayLeafEvents.swift in Sources */,
+				CFE1D1C2286496BD005BA6B9 /* dayleaf_challengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFE1D1CA286496BF005BA6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFE1D1CB286496BF005BA6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFE1D1CD286496BF005BA6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "dayleaf-challenge/Mandarine.swift dayleaf-challenge/dayleaf_challengeApp.swift dayleaf-challenge/Challenges.swift dayleaf-challenge/Assets.xcassets";
+				DEVELOPMENT_TEAM = 3WL53CAG23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ca.dayleaf-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CFE1D1CE286496BF005BA6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "dayleaf-challenge/Mandarine.swift dayleaf-challenge/dayleaf_challengeApp.swift dayleaf-challenge/Challenges.swift dayleaf-challenge/Assets.xcassets";
+				DEVELOPMENT_TEAM = 3WL53CAG23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ca.dayleaf-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFE1D1B9286496BD005BA6B9 /* Build configuration list for PBXProject "dayleaf-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE1D1CA286496BF005BA6B9 /* Debug */,
+				CFE1D1CB286496BF005BA6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE1D1CC286496BF005BA6B9 /* Build configuration list for PBXNativeTarget "dayleaf-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE1D1CD286496BF005BA6B9 /* Debug */,
+				CFE1D1CE286496BF005BA6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFE1D1B6286496BD005BA6B9 /* Project object */;
+}
